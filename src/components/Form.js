@@ -7,35 +7,35 @@ export default function Form(){
         <div id='parent'>
             <div id='box'>
                 <h1 style={{color:'green', textAlign:'center'}}>Form in React</h1>
-                <div style={{ marginLeft:'30%', marginBottom:'10px'}}>
+                <div className='inputBox'>
                     <div>
                         <label for='firstName'>First Name*</label><br/>
-                        <input style={{height:'30px', width:'60%'}} id='firstName' type="text" placeholder='Enter First Name'/>
+                        <input className='inp'  id='firstName' type="text" placeholder='Enter First Name'/>
                     </div>
                     
                 </div>
-                <div style={{ marginLeft:'30%', marginBottom:'10px'}}>
+                <div className='inputBox' >
                     <div>
                         <label for='lastName'>Last Name*</label><br/>
-                        <input style={{height:'30px', width:'60%'}} id='lastName' type="text" placeholder='Enter Last Name'/>
+                        <input className='inp'  id='lastName' type="text" placeholder='Enter Last Name'/>
                     </div>
                     
                 </div>
-                <div style={{ marginLeft:'30%', marginBottom:'10px'}}>
+                <div className='inputBox' >
                     <div>
                         <label for='email'>Enter Email*</label><br/>
-                        <input style={{height:'30px', width:'60%'}} id='email' type="email" placeholder='Enter Email'/>
+                        <input className='inp'  id='email' type="email" placeholder='Enter Email'/>
                     </div>
                     
                 </div>
-                <div style={{ marginLeft:'30%', marginBottom:'10px'}}>
+                <div className='inputBox' >
                     <div>
                         <label for='number'>Contact*</label><br/>
-                        <input style={{height:'30px', width:'60%'}} id='number' type="number" placeholder='Enter Mobile Number'/>
+                        <input className='inp'  id='number' type="number" placeholder='Enter Mobile Number'/>
                     </div>
                     
                 </div>
-                <div style={{ justifyContent:'center', marginLeft:'30%', marginBottom:'10px'}}>
+                <div className='inputBox'>
                     <div>
                         <label for='gender'>Gender*</label><br/>
                         <div id='gender'>
@@ -51,7 +51,7 @@ export default function Form(){
                     </div>
                     
                 </div>
-                <div style={{ marginLeft:'30%', marginBottom:'10px'}}>
+                <div className='inputBox' >
                     <div>
                         <label for='subject'>Your Best Subject</label>
                         <div id='subject'>
@@ -66,22 +66,22 @@ export default function Form(){
                         </div>
                     </div>
                 </div>
-                <div style={{ marginLeft:'30%', alignItems: 'center', marginBottom:'10px'}}>
+                <div className='inputBox'>
                     <div>
                         <label for='resume'>Upload Resume</label><br/>
-                        <input style={{height:'30px', width:'60%'}} id='resume' type="file"/>
+                        <input className='inp'  id='resume' type="file"/>
                     </div>
                 </div>
-                <div style={{ marginLeft:'30%', marginBottom:'10px'}}>
+                <div className='inputBox' >
                     <div>
                         <label for='url'>Enter Url*</label><br/>
-                        <input style={{height:'30px', width:'60%'}} id='url' type="url" placeholder="https://example.com"/>
+                        <input className='inp'  id='url' type="url" placeholder="https://example.com"/>
                     </div>
                 </div>
-                <div style={{ marginLeft:'30%', marginBottom:'10px'}}>
+                <div className='inputBox' >
                     <div>
                         <label for='job'>Select Your Choice</label><br/>
-                        <select style={{height:'30px', width:'60%'}} name="job" id="job">
+                        <select className='inp'  name="job" id="job">
                             <option value="senior">Senior</option>
                             <option value="junior">Junior</option>
                             <option value="Manager">Manager</option>
@@ -89,14 +89,14 @@ export default function Form(){
 
                     </div>
                 </div>
-                <div style={{ marginLeft:'30%', marginBottom:'10px'}}>
+                <div className='inputBox' >
                     <div>
                         <label for='about'>About</label><br/>
                         <input style={{height:'40%', width:'30%'}} id='about' type="text" placeholder="About Yourself"/>
                     </div>
                 </div>
 
-                <div style={{ marginLeft:'30%'}}>
+                <div className='buttonBox'>
                     <label for="btn">Submit or Reset</label>
                     <div style={{display:'flex'}} id='btn'>
 

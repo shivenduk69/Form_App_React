@@ -11,10 +11,42 @@
     align-items: center;
     background-color: grey;
 }
-#box{
-    height: 95%;
-    width: 80%;
-    background-color: white;
-    border-radius: 20px;
-
+@media(min-width: 319px) and (max-width: 768px){
+    #box{
+        height: 95%;
+        width: 80%;
+        background-color: white;
+        border-radius: 20px;
+        
+    }
+    .inputBox{
+        margin-bottom: 10px;
+    }
+    .inp{
+        height: 30px;
+        width: 90%;
+    }
+    
 }
+
+@media(min-width: 768px){
+    #box{
+        height: 95%;
+        width: 80%;
+        background-color: white;
+        border-radius: 20px;
+    }
+    
+    .inputBox{
+        margin-left: 30%;
+        margin-bottom: 10px;
+    }
+    .buttonBox{
+        margin-left: 30%;
+    }
+    .inp{
+        height: 30px;
+        width: 60%;
+    }
+}
+
