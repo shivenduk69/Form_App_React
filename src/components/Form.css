@@ -12,10 +12,14 @@
     background-color: grey;
 }
 @media(min-width: 319px) and (max-width: 768px){
+    #parent{
+        background-color: white !important;
+    }
     #box{
         height: 100%;
         width: 100%;
         background-color: white;
+        margin-left: 10%;
     }
     .inputBox{
         margin-bottom: 20px;

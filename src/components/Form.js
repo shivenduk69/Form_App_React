@@ -6,7 +6,7 @@ export default function Form(){
     return (
         <div id='parent'>
             <div id='box'>
-                <h1 style={{color:'green', textAlign:'center'}}>Form in React</h1>
+                <h1 style={{color:'green', textAlign:'center', marginBottom:'10px'}}>Form in React</h1>
                 <div className='inputBox'>
                     <div>
                         <label for='firstName'>First Name*</label><br/>
